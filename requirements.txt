@@ -1,0 +1,24 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchtnt==0.2.0
+tqdm>=4.64.0
+numpy>=1.23.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+Pillow>=9.3.0
+distinctipy>=1.2.2
+
+# Optional (if using AMP and model visualization)
+typing-extensions>=4.4.0  # Often needed for torch typing
+scipy>=1.10.0  # Useful with PyTorch datasets
+
+# Local utility libraries (you must have these modules locally or install them via Git or .whl if they are private)
+# cjm_psl_utils
+# cjm_pil_utils
+# cjm_pytorch_utils
+# cjm_pandas_utils
+# cjm_torchvision_tfms
+
+# For setup (optional)
+ipykernel>=6.0.0  # If you're using notebooks
